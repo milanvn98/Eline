@@ -1,0 +1,81 @@
+.nav-icon-container {
+    background-color: var(--charcoal);
+    flex: 1;
+    max-height: 80px;
+    min-height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 00ms ease;
+    border-radius: 100% 0 0 100%;
+    padding-right: 25% ;
+    position: relative;
+}
+
+.active {
+    background-color: white;
+}
+
+
+.corner-top {
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 80px;
+    left: 10px;
+}
+
+.overlay-top{
+    height: 20px;
+    width: 100%;
+    background-color: var(--charcoal);
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+    border-radius: 0 0 35px 0;
+}
+
+.corner-bottom {
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    z-index: 1;
+}
+
+.overlay-bottom{
+    height: 20px;
+    width: 100%;
+    background-color: var(--charcoal);
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    border-radius: 0 35px 0 0;
+    z-index: 1;
+}
+
+.nav-button {
+    position: relative;
+}
+
+.nav-tooltip {
+    background: var(--charcoal);
+    position: absolute;
+    z-index: 5;
+    top: 10%;
+    left: 90%;
+    padding: 25px;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    transition: all 200ms ease;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+
+.nav-button:hover .nav-tooltip {
+    transform: scaleX(1);
+}

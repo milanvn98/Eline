@@ -1,0 +1,8 @@
+.container {
+    height: 30vh;
+    min-height: 280px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 20px;
+}

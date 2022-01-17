@@ -1,0 +1,49 @@
+.navbar-container {
+    width: 170px;
+    height: 100vh;
+    min-height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 1.5vw 0;
+    z-index: 99;
+}
+
+
+.nav-bar {
+    background-color: var(--charcoal);
+    max-height: 100vh;
+    min-height: 550px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px 0 10px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    transition: all ease 400ms;
+}
+
+
+.logo {
+    flex: 1.2;
+    max-height: 120px;
+    min-height: 120px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25%;
+    background-color: var(--charcoal);
+    border-radius: 100%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+.svg-active {
+    transform: translateX(12px);
+    fill:black !important;
+    transition: all 600ms ease; 
+}

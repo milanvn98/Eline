@@ -1,0 +1,49 @@
+.delete {
+    cursor: pointer;
+}
+
+.confirm-container {
+    position: absolute;
+    right: 5vw;
+    background: black;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    z-index: 50;
+    transform: scale(0);
+    transition: all ease 200ms;
+    text-align: center;
+    pointer-events: all;
+}
+
+.confirm-button {
+    padding: 5px 10px;
+    color: black;
+    background: white;
+    margin: 12px 10px 0 10px;
+    border-radius: 5px;
+}
+.confirm-button:nth-child(1){
+    background: var(--orange);
+    color: white;
+}
+
+.shown {
+    transform: scale(1);
+}
+
+.overlay {
+    opacity: 0.8;
+    background: white;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
+
+.show-overlay {
+    display: block;
+}

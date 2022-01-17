@@ -1,0 +1,70 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--charcoal);
+}
+
+.login-card {
+  color: white;
+}
+
+.signup-card {
+  background-color: white;
+  border-radius: 25px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-card input {
+  border: 1px solid rgb(216, 216, 216);
+}
+
+.submit {
+  background: var(--orange);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.submit i {
+  font-size: 20px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.button-container a {
+  border-bottom: 1px solid white;
+  margin: 0 10px;
+}
+
+.input-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-holder input:nth-child(1){
+  margin-right: 10px;
+} 
+
+.error-container {
+  background: rgb(255, 115, 115);
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+
+
+

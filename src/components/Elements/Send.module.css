@@ -1,0 +1,25 @@
+.tool {
+  position: relative;
+  overflow: visible;
+}
+
+.tooltip {
+  position: absolute;
+  top: 10px;
+  left: -250%;
+  background: var(--charcoal);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: all 200ms ease;
+  visibility: hidden;
+}
+
+.tool:hover .tooltip {
+  transform: scaleX(1);
+  visibility: visible;
+}

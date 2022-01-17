@@ -1,0 +1,40 @@
+.illustration {
+  width: 40%;
+  min-width: 400px;
+  max-width: 800px;
+  margin-right: 8vw;
+}
+
+.spinner-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.timer-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.timer-container h1 {
+  font-size: 85px;
+  margin-top: 40px;
+}

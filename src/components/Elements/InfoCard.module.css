@@ -1,0 +1,53 @@
+.info-card {
+    width: 100%;
+    max-width: 50vw;
+    min-width: 400px !important;
+    margin: 0 20px;
+    height: 30vh;
+    min-height: 260px;
+    border-radius: 25px;
+    overflow: scroll;
+    transition: all ease 200ms;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48vw;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.expand {
+    height: 540px !important;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    box-shadow: 1px 1px 10px 5px lightgrey;
+}
+
+.app-expand {
+    height: 700px !important;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    box-shadow: 1px 1px 10px 5px lightgrey;
+}
+
+.client-expand {
+    height: 330px !important;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    box-shadow: 1px 1px 10px 5px lightgrey;
+}
+
+.overlay {
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}

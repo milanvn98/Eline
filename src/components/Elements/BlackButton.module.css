@@ -1,0 +1,13 @@
+.button, .filter  {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    transition: ease 200ms all;
+    white-space: nowrap;
+}
+
+.button:hover {
+    transform: translateY(-2px)
+}
+

@@ -1,0 +1,70 @@
+.fw-container p {
+    margin: 20px 0;
+}
+
+.fw-container label {
+    margin: 10px 0 0px 5px;
+}
+
+.fw-container h1 {
+    margin: 20px 0;
+}
+
+.request-container {
+    background-color: rgb(218, 218, 218);
+    margin: 100px auto;
+    border-radius: 25px;
+    width: 75%;
+    min-width: 600px;
+    padding: 40px;
+}
+
+.container select:first-child {
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container input:nth-child(1) {
+    margin-right: 10px;
+}
+
+.select {
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0;
+    height: 48px;
+}
+
+.submitContainer{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: none;
+    outline: none;
+    height: 200px;
+    margin: 10px 0;
+}
+
+.success-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+}

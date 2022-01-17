@@ -1,0 +1,33 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    background: white;
+}
+
+.container {
+    padding: 1.5vw 2vw 1.5vw 160px ;
+}
+
+   
+.illustration{
+    width: 40%;
+    min-width: 400px;
+    max-width: 800px;
+    margin-right: 8vw;
+  }
+
+  .spinner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+  }
+
+  .table-container {
+    overflow-y: scroll;
+    height: 55vh;
+    min-height: 400px;
+    margin: 20px 0;
+}

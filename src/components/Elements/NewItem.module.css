@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    max-width: 35vw;
+    min-width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item-container {
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    padding: 40px;
+    cursor: pointer;
+    transition: ease all 200ms;
+}
+
+.item-container:hover {
+    transform: translateY(-5px);
+}
+
+.icon-container {
+    background: white;
+    border-radius: 50%;
+    color: black;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin {
+    margin-right: auto;
+}
